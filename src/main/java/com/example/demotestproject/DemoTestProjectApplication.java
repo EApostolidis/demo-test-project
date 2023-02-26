@@ -13,6 +13,11 @@ import static com.example.demotestproject.model.Choice.SCISSOR;
 import static com.example.demotestproject.utils.Rules.calculateResult;
 import static com.example.demotestproject.utils.Rules.constructResultMessage;
 
+/**
+ * The Spring boot application class which holds the main method
+ * through which we create the players , and we run the game process
+ * in order to get the final results.
+ */
 @SpringBootApplication
 public class DemoTestProjectApplication {
 

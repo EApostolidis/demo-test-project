@@ -30,8 +30,8 @@ class RulesTest {
   void constructResultMessageTest() {
     Result result = new Result();
     String message = constructResultMessage(result);
-    Assertions.assertTrue(message.contains("Player A wins "));
-    Assertions.assertTrue(message.contains("Player B wins "));
-    Assertions.assertTrue(message.contains("Tie: "));
+    Assertions.assertTrue(message.contains("Player A wins 0 of 0 games"));
+    Assertions.assertTrue(message.contains("Player B wins 0 of 0 games"));
+    Assertions.assertTrue(message.contains("Tie: 0 of 0 games"));
   }
 }
